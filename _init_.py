@@ -39,4 +39,4 @@ def calculate_dh_secret(their_public, my_private):
     shared_hash = SHA256.new(bytes(shared_secret, "ascii")).hexdigest()
     return shared_hash
 
-#This is a test
+
