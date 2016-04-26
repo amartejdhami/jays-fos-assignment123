@@ -38,3 +38,5 @@ def calculate_dh_secret(their_public, my_private):
     # Feel free to change SHA256 to a different value if more appropriate
     shared_hash = SHA256.new(bytes(shared_secret, "ascii")).hexdigest()
     return shared_hash
+
+#This is a test
